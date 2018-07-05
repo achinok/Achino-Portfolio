@@ -1,0 +1,101 @@
+img {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 5px 10px 8px #888888;
+}
+body{
+  src: url(fonts/Karma-Bold.ttf);
+  font-family: Karma-Bold;
+  background-image: url("images/background.jpg");
+  background-size: 100%; 
+}
+
+
+.kellyBrand {
+  display: block;
+  margin-left: 35%;
+}
+header {
+  text-align: right;
+  padding: 30px;
+  background-color: lightskyblue;
+  color: black;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  font-size: 25px;
+}
+.navKelly{
+  float: left;
+  padding-left: 20px;
+}
+.restNav{
+  padding: 20px;
+}
+/* #myname {
+  grid-column: 2/3;
+  text-align: center;
+} */
+
+.indexPara{ 
+  display: block;
+}
+
+
+
+
+@font-face {
+src: url(fonts/Karma-Medium.ttf);
+font-family: Karma-Medium;
+}
+
+#home, #about, #contact {
+  src: url(fonts/Karma-Medium.ttf);
+  font-family: Karma-Medium;
+}
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: #BDCCC6;
+  }
+  a:hover {
+    color: #00FF92;
+  }
+  a:active {
+    color: #687F75;
+  }
+
+
+@font-face {
+src: url(fonts/Karma-Bold.ttf);
+font-family: Karma-Bold;
+}
+
+#form1 {
+ text-align: center;
+ border: 1px solid black;
+ padding: 1px;
+}
+
+#link1 {
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+header{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 5px 10px 8px #888888;
+}
+}
