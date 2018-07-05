@@ -1,25 +1,33 @@
-img {
+.kelly {
   height: 300px;
   width: auto;
   border-radius: 50%;
   box-shadow: 5px 10px 8px #888888;
+  padding-top: 20px;
 }
 body{
   src: url(fonts/Karma-Bold.ttf);
   font-family: Karma-Bold;
   background-image: url("images/background.jpg");
   background-size: 100%; 
+  background-image: fixed;
+  width: 100%;
+  height: auto;
 }
-
-
 .kellyBrand {
   display: block;
-  margin-left: 35%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2%;
+}
+h1, h2{
+  display: block;
+  align-content: center;
 }
 header {
   text-align: right;
   padding: 30px;
-  background-color: lightskyblue;
+  background-image: "images/copper.jpg";
   color: black;
   position: -webkit-sticky; 
   position: sticky;
@@ -33,10 +41,6 @@ header {
 .restNav{
   padding: 20px;
 }
-/* #myname {
-  grid-column: 2/3;
-  text-align: center;
-} */
 
 .indexPara{ 
   display: block;
@@ -54,14 +58,14 @@ font-family: Karma-Medium;
   src: url(fonts/Karma-Medium.ttf);
   font-family: Karma-Medium;
 }
-  a:link {
+  /* a:link {
     color: black;
-  }
+  } */
   a:visited {
     color: #BDCCC6;
   }
   a:hover {
-    color: #00FF92;
+    color: #10291c02;
   }
   a:active {
     color: #687F75;
@@ -79,10 +83,14 @@ font-family: Karma-Bold;
  padding: 1px;
 }
 
-#link1 {
+.link1 {
   text-align: center;
 }
-
+.songSmash{
+  height: 400px;
+  width: auto;
+  border-radius: none;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -92,10 +100,11 @@ header{
   justify-content: center;
 }
 
-img {
-  height: 200px;
-  width: auto;
-  border-radius: 50%;
-  box-shadow: 5px 10px 8px #888888;
+body {
+  background-image: url("images/background.jpg");
+  background-size: 100%; 
+  background-image: fixed;
+  width: 100%;
+  height: auto;
 }
 }
