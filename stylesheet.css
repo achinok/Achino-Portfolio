@@ -99,7 +99,17 @@ font-family: Karma-Bold;
 .link1 {
   text-align: center;
 }
+.portfolio{
+  height: 300%;
+}
+
 .songSmash{
+  display: inline-flex;
+  height: 400px;
+  width: auto;
+  border-radius: none;
+}
+.threeCards{
   height: 400px;
   width: auto;
   border-radius: none;
