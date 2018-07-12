@@ -1,5 +1,5 @@
 .kelly {
-  height: 300px;
+  height: 500px;
   width: auto;
   border-radius: 50%;
   box-shadow: 5px 10px 8px #888888;
@@ -61,7 +61,12 @@ footer {
   bottom: 0;
   font-size: 15px;
 }
-
+.portContent{
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
 
 @font-face {
 src: url(fonts/Karma-Medium.ttf);
